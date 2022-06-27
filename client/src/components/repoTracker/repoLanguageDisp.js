@@ -39,7 +39,7 @@ export default function RepoLang(){
                             return(
                              <>
                                 <ul className = "lang-list">
-                                    <h3>{gitdata[idx].toUpperCase()}</h3>
+                                    <h6>{gitdata[idx].toUpperCase()}</h6>
                                     {
                                      Object.keys(arr).map((key, i)=>{
                                          sumArr.push(arr[key])

@@ -47,7 +47,7 @@ export default function RepoFileDisp(){
                             let color = 'white';
                             return(
                                 <ul className = "file-list">
-                                    <h3>{gitdata[idx].toUpperCase()}</h3>
+                                    <h6>{gitdata[idx].toUpperCase()}</h6>
                                     {
                                     arr.map((file, idx)=>{
                                        if(file.name.includes( '.md') || file.name.includes('.txt') || file.name.includes('.pdf')){
